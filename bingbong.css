@@ -1,0 +1,19 @@
+/* CSS Stylesheet for Bing Bong */
+body, html {
+	background-color: rgba(223, 249, 249, 0.1);
+        font-size: 16px;
+        line-height: 1.5rem;
+}
+.recipe_title {
+        font-family: fantasy;
+        font-size: 1.7rem;
+        font-weight: bold;
+}
+#site_title {
+        font-family: cursive;
+        font-size: 8vh;
+        font-weight: bold;
+        text-decoration: underline;
+        color: darkviolet;
+        text-align: center;
+}

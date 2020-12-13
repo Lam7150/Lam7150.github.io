@@ -1,4 +1,4 @@
-import './App.css';
+import './css/App.scss';
 import './index.css';
 import telegram from "./assets/icons/telegram_white.png"
 import linkedin from "./assets/icons/linkedin_white.png"
@@ -10,11 +10,12 @@ function App() {
   return (
     <div className="app-background bg-center sm:bg-left-top h-screen w-screen flex justify-center items-center">
       <div className="flex flex-col h-2/5 w-2/5 mr-120 mt-20">
-        <div className="text-3xl sm:text-5xl md:text-6xl text-white font-bold text-shadow-md">
+        <div className="text-3xl sm:text-5xl md:text-6xl text-white font-bold text-shadow-md perspective">
           Hi, I'm Lam
         </div>
-        <div className="text-2xl sm:text-3xl md:text-4xl text-white font-bold text-shadow-md">
-          Welcome to my world.
+        <div className="text-2xl sm:text-3xl md:text-4xl text-white font-bold text-shadow-md flip-animate">
+          I'm a &nbsp;
+          <span data-hover="Designer">Developer</span>
         </div>
         <div className="flex flex-row h-12 mt-3">
           <a href="mailto:lam7150@gmail.com" className="w-12 mr-4 button hvr-float">

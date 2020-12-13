@@ -18,6 +18,10 @@
   .text-shadow-none {
     text-shadow: none;
   }
+
+  .mr-120 {
+    margin-right: 30rem;
+  }
 }
 
 body {
